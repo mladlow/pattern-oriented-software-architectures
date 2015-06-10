@@ -1,4 +1,13 @@
 # W6 - Java Netty
+
+## How to build
+This requires a Java Netty jar to be on the classpath.
+```
+javac -cp .:../../netty-3.6.5.Final/jar/netty-3.6.5.Final.jar EchoServer.java
+java -cp .:../../netty-3.6.5.Final/j/netty-3.6.5.Final.jar EchoServer
+```
+
+## Assignment
 ATTN: As with all peer-assessments, you will receive the average of your 4 scores.  For the programming assignments, you will receive the maximum score out of the ones you submit (so if you get 30/30 for Java and 20/30 for C++, you will get 30/30 for Programming Assignment 2).   
 
 The purpose of this assignment is to deepen your understanding of the Wrapper Facade pattern, the Reactor pattern and the (Acceptor role of the) Acceptor-Connector pattern in the context of Java Netty. In particular, you will write a platform-independent reactive server program that accepts a connection from a client and echos back what the client sent. In brackets below are some hints about what kinds of Netty classes you might want to look up to do these (see the Netty Javadocs and examples for more background).
